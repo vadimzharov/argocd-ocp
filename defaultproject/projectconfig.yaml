@@ -4,6 +4,7 @@ metadata:
   annotations:
     release.openshift.io/create-only: "true"
   name: cluster
+  resourceVersion: "87013"
 spec:
   projectRequestMessage: To provision Projects you must request access in https://labs.opentlc.com
     or https://rhpds.redhat.com.
