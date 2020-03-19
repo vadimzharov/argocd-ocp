@@ -3,10 +3,13 @@ kind: Project
 metadata:
   annotations:
     release.openshift.io/create-only: "true"
+  creationTimestamp: "2020-03-19T16:47:23Z"
+  generation: 2
   name: cluster
-  resourceVersion: "88103"
+  resourceVersion: "17975"
+  selfLink: /apis/config.openshift.io/v1/projects/cluster
+  uid: cae6f131-df47-404f-9e5c-ebe1c7d79345
 spec:
-  projectRequestMessage: To provision Projects you must request access in https://labs.opentlc.com  or https://rhpds.redhat.com. Tested with ArgoCD OCP.
+  projectRequestMessage: To provision Projects you must request access in https://labs.opentlc.com or https://rhpds.redhat.com. Tested with ArgoCD.
   projectRequestTemplate:
     name: project-request
-
