@@ -5,8 +5,7 @@ metadata:
     release.openshift.io/create-only: "true"
   name: cluster
 spec:
-  projectRequestMessage: To provision Projects you must request access in https://labs.opentlc.com
-    or https://rhpds.redhat.com. Tested with ArgoCD OCP.
+  projectRequestMessage: To provision Projects you must request access in https://labs.opentlc.com  or https://rhpds.redhat.com. Tested with ArgoCD OCP.
   projectRequestTemplate:
     name: project-request
 
