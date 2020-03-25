@@ -6,6 +6,6 @@ metadata:
     argocd.argoproj.io/sync-options: Prune=false
   name: cluster
 spec:
-  projectRequestMessage: To provision Projects you must request access in https://labs.opentlc.com or https://rhpds.redhat.com.
+  projectRequestMessage: To provision Projects you must request access in https://labs.opentlc.com or https://rhpds.redhat.com. Updated with ArgoCD.
   projectRequestTemplate:
     name: project-request
